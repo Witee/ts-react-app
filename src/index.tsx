@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
-// import Hello from './components/demo/Hello';
-// import HelloClass from './components/demo/HelloClass';
-// import HelloHOC from "./components/demo/HelloHOC";
-import HelloHooks from "./components/demo/HelloHooks";
+import App from "./components/App";
 
 ReactDOM.render(
-  <HelloHooks name="TypeScript" />,
+  <BrowserRouter>
+    <Route path="/*" component={App} />
+  </BrowserRouter>,
   document.getElementById("root")
 );
