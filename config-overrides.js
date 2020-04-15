@@ -7,5 +7,5 @@ module.exports = override(
     libraryDirectory: 'es',
     style: 'css',
   }),
-  addWebpackAlias({ '@': path.join(__dirname, 'src') }),
+  addWebpackAlias({ '~': path.join(__dirname, 'src') }),
 );
