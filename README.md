@@ -1,3 +1,4 @@
-# ts-react-app
+# ts 与 hooks 练习项目
 
-typescript and react hooks
+- MOCK 数据
+  使用 `http-server` `http-proxy-middleware`, 根据 `setupProxy.js` 配置 访问 `./mock` 目录的数据;
